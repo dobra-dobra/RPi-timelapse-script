@@ -1,1 +1,9 @@
 Python script to take continous series of images
+
+1. Run
+To run script at system startup add following line
+before "exit 0" line to rc.local file in /etc catalog of Raspbian:
+
+sudo python3 <address to tl_images.py file> &
+
+for example: sudo python3 /home/pi/timelapses/tl_images.py &
